@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>INVADE</h1>
+    </header>
+    <main>
+      <section id="filter">
+        <input type="text" id="search" placeholder="Search Products" />
+        <label for="category">
+          <span>Category</span>
+          <select name="category" id="category">
+            <option value="">All</option>
+          </select>
+        </label>
+        <label for="brand">
+          <span>Brand</span>
+          <select name="brand" id="brand">
+            <option value="">All</option>
+          </select>
+        </label>
+
+        <button id="clear-btn">Clear</button>
+      </section>
+      <section id="products"></section>
+    </main>
+    <script src="./index.js"></script>
+  </body>
+</html>
